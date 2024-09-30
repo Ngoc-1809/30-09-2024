@@ -1,4 +1,3 @@
-public class DHCN {
 
     class Person {
         private String fullName;
@@ -48,15 +47,15 @@ public class DHCN {
         }
 
     }
+    public class DHCN {
+        public static void main(String[] args) {
 
-    public static void main(String[] args) {
-        DHCN dhcn = new DHCN();
+            Student S1 = new Student("Nguyen Van A", "18/02/2005", "23020550");
 
-        Student S1 = dhcn.new Student("Nguyen Van A", "18/02/2005", "23020550");
+            Lecturer L1 = new Lecturer("Nguyen Thi B", "22/01/1950");
 
-        Lecturer L1 = dhcn.new Lecturer("Nguyen Thi B", "22/01/1950");
-
-        System.out.println(S1.Information());
-        System.out.println(L1.Information());
+            System.out.println(S1.Information());
+            System.out.println(L1.Information());
+        }
     }
-}
+
